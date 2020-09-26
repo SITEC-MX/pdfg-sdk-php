@@ -1,0 +1,19 @@
+{
+    "name": "sitec/pdfg",
+    "description": "SDK para PHP del sistema de generacion de archivos PDF",
+    "type": "project",
+    "authors": [
+        {
+            "name": "SiTEC",
+            "email": "contacto@sistemasespecializados.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Mpsoft\\PDFg\\": "src/"
+        }
+    },
+    "require": {
+    }
+}
