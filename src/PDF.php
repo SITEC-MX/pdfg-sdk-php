@@ -9,7 +9,7 @@ namespace Mpsoft\PDFg;
 
 class PDF
 {
-    private $servidor = "pdfg.svc-sitec.com";
+    private $servidor = "pdfg.sitec-mx.com";
 
     public function Generar(array $estructura)
     {
