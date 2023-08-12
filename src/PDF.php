@@ -13,7 +13,7 @@ class PDF
 
     public function Generar(array $estructura)
     {
-        $url = "https://{$this->servidor}/pdf";
+        $url = "https://{$this->servidor}/generar";
 
         $content = json_encode($estructura);
 
